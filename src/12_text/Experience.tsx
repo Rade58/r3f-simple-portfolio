@@ -12,6 +12,7 @@ import {
   PresentationControls,
   ContactShadows,
   Html,
+  Text,
 } from "@react-three/drei";
 
 // import { Perf } from "r3f-perf";
@@ -94,6 +95,22 @@ export function Experience() {
               <iframe src={"https://radedev.com"} />
             </Html>
           </primitive>
+          <Text
+            font="/fonts/tektur-v3-cyrillic-ext-regular.woff"
+            fontSize={0.6}
+            // position and rotation
+            position={[2, 0.75, 0.75]}
+            rotation-y={-1.25}
+            // for line breaks
+            maxWidth={2}
+            // if we wouldn't nest it and inclde line break
+            // this is without the nested text and maxWith
+            // children={"Раде\nБајић"}
+
+            textAlign="center"
+          >
+            Раде Бајић
+          </Text>
         </Float>
       </PresentationControls>
       {/* ---------------------------------------------------- */}
