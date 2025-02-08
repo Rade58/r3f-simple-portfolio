@@ -13,7 +13,9 @@ import "./index.css";
 // import { App } from "./7_floating_animation/App";
 // import { App } from "./8_presentation_controls/App";
 // import { App } from "./9_contact_shadows/App";
-import { App } from "./10_iframe/App";
+// import { App } from "./10_iframe/App";
+// import { App } from "./11_screen_light/App";
+import { App } from "./12_text/App";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
