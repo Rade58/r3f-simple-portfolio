@@ -9,7 +9,9 @@ import "./index.css";
 // -----------------------------------------------------------
 // import { App } from "./4_background/App";
 // import { App } from "./5_laptop_model/App";
-import { App } from "./6_light_and_environment/App";
+// import { App } from "./6_light_and_environment/App";
+// import { App } from "./7_floating_animation/App";
+import { App } from "./8_camera_n_controls/App";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

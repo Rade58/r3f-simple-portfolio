@@ -36,6 +36,8 @@ canvas {
   /* border: purple solid 2px; */
   /* doesn't do anything */
   background: transparent;
+  /* fix */
+  touch-action: none;
 }
 
 /* some testing */
